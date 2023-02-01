@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            /* display: flex; */
+            background-color: rgb(30, 187, 207);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            padding-left: 30px;
+            list-style: none;
+            /* display: flex; */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <ul>
+               <a href="" onclick="myfunction()">  <li>Home</li></a>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Contact</li>
+
+            </ul>
+        </div>
+    </nav>
+    <script>
+        function myfunction(){
+            var str=prompt("Welcome to Aakash n company:","")
+            alert("Ready to go in Big zone:")
+        }
+    </script>
+    
+</body>
+</html>

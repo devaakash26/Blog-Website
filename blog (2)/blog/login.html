@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light">
+    <div class="container-fluid">
+      <a class="logo-comapany" href="index.html">
+        <img src="img/atechseva-logo.png" alt="aTECH SEVA" width="121px" height="50px"
+          class="d-inline-block align-text-top" />
+      </a>
+      <div class="socialmedia">
+        <i class="facebook fa-brands fa-facebook"></i>
+        <i class="insta fa-brands fa-instagram"></i>
+        <i class="github fa-brands fa-github"></i>
+        <i class="linkdin fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <!-- End of first navigation -->
+    <!-- page second navigation -->
+  </nav>
+  <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  " aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+        <!-- login button -->
+        <a href="login.html" class="login-page">
+          <button class="login"> Login
+          </button>
+        </a>
+
+        <!-- end of login bgutton -->
+
+      </div>
+    </div>
+  </nav>
+  <!-- main page login navigation  -->
+
+
+  <section class="background">
+    <div class="container py-5 ">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-8 col-xl-6">
+          <div class="card rounded-3">
+
+
+            <img src="img/logi-in page.jpg" class="w-100"
+              style="border-top-left-radius: .3rem; border-top-right-radius: .3rem;" alt="Sample photo">
+            <h4 class="login-heading">Log In</h4>
+
+
+
+            <div class="contact-form-1 p-5">
+              <form enctype="multipart/form-data" method="post" id="quickcontact" novalidate="novalidate">
+                <div class="form-group">
+                  <input type="text" placeholder="Enter your email address" id="name" name="email" class="form-control">
+
+                </div>
+                <div class="form-group">
+                  <input type="number" placeholder="Enter your password" id="password" name="password"
+                    class="form-control">
+                    <label id="password-error" class="error" for="password">Please enter a valid password.</label>
+
+                </div>
+
+
+                <button class="login-btn"> Log In
+                  <span class="followers"><i class="fa-solid fa-right-to-bracket"></i> </span>
+                </button>
+
+                <p class="small fw-bold mt-2 pt-1 mb-0">
+                  Don't have an account?
+                  <a href="javascript:void()" class="link-danger" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Register</a>
+
+                </p>
+              </form>
+
+            </div>
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-12 my-3">
+          <div class="about-footer">
+            <h4>About</h4>
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aperiam mollitia nostrum
+              illo impedit dolorem sequi neque quod quaerat quidem?</p>
+          </div>
+          <div class="view">
+            <button class="footer-btn-view-more"> <span>View more</span></button>
+
+          </div>
+        </div>
+        <div class="col-md-3 col-6 my-3">
+          <div class="importantlinks">
+            <h5>Links</h5>
+            <ul>
+              <a href="">
+                <li>Home</li>
+              </a>
+              <a href="">
+                <li>About</li>
+              </a>
+              <a href="">
+                <li>Contact</li>
+              </a>
+              <a href="">
+                <li>Sitemap</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-6 my-3">
+          <div class="featuredblog">
+            <h5>Recent Blogs</h5>
+            <ul>
+              <a href="">
+                <li>Lifestyle Blogs</li>
+              </a>
+              <a href="">
+                <li>Footwear Fashion</li>
+              </a>
+              <a href="">
+                <li>Web development</li>
+              </a>
+              <a href="">
+                <li>Domain Name vs Web Hosting</li>
+              </a>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3 col-12 my-3">
+          <div class="subscription">
+            <h4 style="font-weight: 600;">Our newsletter</h4>
+            <form action="" id="login-contact" >
+
+
+              <input placeholder="Name" type="text"  name="name2" class="footer-input" required="">
+
+              <input placeholder="Email address" type="text" name="email2" class="footer-input" required="">
+              <button class="footer-btn"> <span>Subscribe</span></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      Developed by <span>Aakash n Company&#10084;</span> in India
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+  <!-- Return to Top -->
+  <button class="scrolltotop"><i class="fa-solid fa-arrow-up"></i></button>
+  <!-- --------------- -->
+
+  <!-- pre loader  -->
+  <div id="preloader">
+
+    <!-- <span class="glyphicon glyphicon-refresh w3-spin preloader-Icon"></span> -->
+
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+  <!-- -------->
+
+  <!-- pop up section -->
+
+
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="portal-title">CREATE YOUR ACCOUNT TODAY</h5>
+
+        </div>
+        <form class="mx-1 mx-md-4" id="signup">
+          <div class="form-group">
+            <input type="text" placeholder="Enter your Name" id="name1" name="name" class="form-control">
+
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Enter your email address" id="email1" name="email" class="form-control">
+
+          </div>
+          <div class="form-group">
+            <input type="number" placeholder="Enter your password" id="password1" name="password"
+              class="form-control">
+
+          </div>
+          <button class="signup-btn"> REGISTER
+            <span class="followers"><i class="fa-solid fa-user-plus"></i> </span>
+          </button>
+</form>
+
+          <!-- End of pop section-->
+
+
+          <script>
+            //scroll to top
+            const button = document.querySelector('.scrolltotop');
+
+            const displayButton = () => {              //arrow function in javascript
+              window.addEventListener('scroll', () => {
+                if (window.scrollY > 100) {
+                  button.style.display = "block";
+                } else {
+                  button.style.display = "none";
+                }
+              });
+            };
+
+            const scrollToTop = () => {
+              button.addEventListener("click", () => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                  behavior: 'smooth'
+                });
+              });
+            };
+
+            displayButton();    //call is necessary
+            scrollToTop();
+          </script>
+          <script>
+            //preloader
+            $(window).on('load', function () {
+              $("#preloader").fadeOut(1300);
+            });
+          </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+          <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
